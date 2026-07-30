@@ -56,3 +56,19 @@ print("Question 12: Who was the creator of pinterest?")
 Answer12 = input("a) Ben Silbermann\nb) Reid Hoffman\nc) Pingu\nd) Poopy dog\nYour answer:")
 if Answer12 == "a":
     Correct_Answer += 1
+print("Question 13: Who was the creator of twitter?")
+Answer13 = input("a) Elon musk\nb) Reid Hoffman\nc) Bill Gates\nd) Poopy dog\nYour answer:")
+if Answer13 == "a":
+    Correct_Answer += 1
+print("Question 14: Who was the creator of Tesla/X?")
+Answer14 = input("a) Elon musk\nb) Reid Hoffman\nc) Bill Gates\nd) Poopy dog\nYour answer:")
+if Answer14 == "a":
+    Correct_Answer += 1
+print("Question 15: Which country gained independance from the uk on 4th of July")
+Answer15 = input("a) United States\nb) Canada\nc) Australia\nd) Netherlands\nYour answer:")
+if Answer15 == "a":
+    Correct_Answer += 1
+if Correct_Answer > 14:
+    print("Congratulations! You got a perfect score of 15/15!")
+else:
+    print("You got " + str(Correct_Answer) + "/15 correct answers. Better luck next time!")
